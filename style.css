@@ -1,0 +1,94 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+/* start header */
+header {
+  background-color:  rgb(104, 103, 103);
+  color: purple;
+  padding: 35px;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+  display: inline;
+}
+
+header nav {
+  float: right;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline;
+  padding:20px;
+  font-size: 30px;
+}
+
+/* start footer */
+footer {
+  background-color: rgb(104, 103, 103);
+  padding:30px;
+  
+}
+
+footer h2 {
+  display: inline;
+}
+
+.sincerely {
+  float: right;
+}
+/* end footer */
+
+/* PORTFOLIO */
+.github, .horiseon, .runbuddy {
+display: inline-flex;
+margin: 20px;  
+}
+
+.portfolio a {
+display: inline-block;
+border: solid black 2px;
+position: relative;
+margin: 20px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0;
+  display: inline;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+.span {
+  color: limegreen;
+}
+
+.container {
+  flex-wrap: wrap;
+  flex: .5;
+}
+
+.hero {
+background-color: purple;
+height: 600px;
+background-size: cover;
+background-position: center;
+position:relative;
+}
+

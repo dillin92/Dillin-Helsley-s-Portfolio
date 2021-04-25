@@ -1,0 +1,70 @@
+*{
+    background-color: grey;
+}
+.hero {
+    background-image: url(/dillyillyin.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: inherit;
+    position: relative;
+    padding: 20px;
+}
+
+
+/* BIO */
+.bio {
+display: inline-flex;
+background-color: rgb(128, 128, 128, .5);
+}
+.bio h2, .bio p{
+    text-align: center;
+}
+
+/* Experience */
+.experience {
+  background-color: rgb(128, 128, 128, .5);
+  display: inline-flex;
+}
+
+.experience h2 {
+    text-align: center;
+  margin-right: 120px;
+  padding:20px;
+  margin:0 0 0 10px;
+}
+
+.experience h3 {
+text-align: center;
+margin-bottom: 50px;
+
+}
+
+.experience a img {
+    border-radius: 28%;
+    position: static;
+    box-shadow:0 0 10px 5px white;
+}
+
+.experience a {
+    display: inline;
+  position: relative;
+  margin: 20px;
+  padding: 35px;
+}
+
+.experience a img:hover {
+    background-color: rgb(50, 205, 50, .45);
+}
+
+.jobs {
+    background-color: grey;
+    display: inline-flex;
+}
+
+
+.jobs h2 {
+  text-align: center;
+  margin-right: 120px;
+  padding:20px;
+  margin:0 0 0 10px;
+}

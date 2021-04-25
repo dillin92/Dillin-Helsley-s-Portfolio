@@ -69,7 +69,7 @@ footer h2 {
 
 /* PORTFOLIO */
 .portfolio {
-  background-color: grey;
+  background-color: rgb(104, 103, 103, .85);
   display: inline-flex;
 }
 

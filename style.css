@@ -1,16 +1,16 @@
 * {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: cursive;
 }
-
 
 
 /* start header */
 header {
-  background-color:  rgb(104, 103, 103);
-  color: purple;
+  background-color: rgb(104, 103, 103, 0.65);
   padding: 35px;
+  position: sticky;
 }
 
 header h1 {
@@ -18,6 +18,7 @@ header h1 {
   font-size: 36px;
   margin: 0;
   display: inline;
+  color: purple; 
 }
 
 header nav {
@@ -30,15 +31,21 @@ header a {
 
 header nav ul li {
   display: inline;
-  padding:20px;
+  padding: 20px;
   font-size: 30px;
 }
+.span {
+  color: limegreen;
+}
+header nav a:hover {
+  background-color: rgb(128,0,128, .15);
+  border-radius: 25%;
+  }
 
 /* start footer */
 footer {
   background-color: rgb(104, 103, 103);
-  padding:30px;
-  
+  padding: 30px;
 }
 
 footer h2 {
@@ -50,18 +57,56 @@ footer h2 {
 }
 /* end footer */
 
+/* HERO */
+.hero {
+  background-image: url(./shutterstock_671483350.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 20px;
+}
+
 /* PORTFOLIO */
-.github, .horiseon, .runbuddy {
-display: inline-flex;
-margin: 20px;  
+.portfolio {
+  background-color: grey;
+  display: inline-flex;
+}
+
+.portfolio h1 {
+  text-align: center;
+  padding: 50px;
+}
+
+.application {
+  text-align: center;
+  position: relative;
+}
+
+.portfolio h2 {
+  text-align: center;
+  margin-right: 120px;
+  padding:20px;
+
+}
+
+.portfolio a img {
+  border-radius: 28%;
+  position: static;
+  margin-right: 125px;
+  box-shadow:0 0 10px 5px white;
 }
 
 .portfolio a {
-display: inline-block;
-border: solid black 2px;
-position: relative;
-margin: 20px;
+  display: inline;
+  position: relative;
+  margin: 20px;
 }
+
+.portfolio a img:hover {
+  background-color: rgb(50, 205, 50, .45);
+}
+
 
 .title {
   font-weight: bold;
@@ -71,24 +116,7 @@ margin: 20px;
 }
 
 img {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 550px;
+  padding: 25px;
 }
-
-.span {
-  color: limegreen;
-}
-
-.container {
-  flex-wrap: wrap;
-  flex: .5;
-}
-
-.hero {
-background-color: purple;
-height: 600px;
-background-size: cover;
-background-position: center;
-position:relative;
-}
-

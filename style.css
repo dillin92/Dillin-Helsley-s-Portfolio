@@ -5,7 +5,6 @@
   font-family: cursive;
 }
 
-
 /* start header */
 header {
   background-color: rgb(104, 103, 103, 0.65);
@@ -18,7 +17,7 @@ header h1 {
   font-size: 36px;
   margin: 0;
   display: inline;
-  color: purple; 
+  color: purple;
 }
 
 header nav {
@@ -38,23 +37,40 @@ header nav ul li {
   color: limegreen;
 }
 header nav a:hover {
-  background-color: rgb(128,0,128, .15);
+  background-color: rgb(128, 0, 128, 0.15);
   border-radius: 25%;
-  }
+}
 
 /* start footer */
 footer {
   background-color: rgb(104, 103, 103);
   padding: 30px;
+  flex:1 20%;
 }
 
 footer h2 {
   display: inline;
 }
 
+.contact-info {
+  margin-top: 950px;
+  text-align: center;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+
 .sincerely {
   float: right;
 }
+
 /* end footer */
 
 /* HERO */
@@ -69,13 +85,15 @@ footer h2 {
 
 /* PORTFOLIO */
 .portfolio {
-  background-color: rgb(104, 103, 103, .85);
-  display: inline-flex;
+  background-color: rgb(104, 103, 103, 0.85);
+  flex:1 80%;
+  text-align: center;
 }
 
 .portfolio h1 {
   text-align: center;
   padding: 50px;
+  margin-right: 130px;
 }
 
 .application {
@@ -86,15 +104,14 @@ footer h2 {
 .portfolio h2 {
   text-align: center;
   margin-right: 120px;
-  padding:20px;
-
+  padding: 20px;
 }
 
 .portfolio a img {
   border-radius: 28%;
   position: static;
   margin-right: 125px;
-  box-shadow:0 0 10px 5px white;
+  box-shadow: 0 0 10px 5px white;
 }
 
 .portfolio a {
@@ -104,9 +121,8 @@ footer h2 {
 }
 
 .portfolio a img:hover {
-  background-color: rgb(50, 205, 50, .45);
+  background-color: rgb(50, 205, 50, 0.45);
 }
-
 
 .title {
   font-weight: bold;
@@ -119,4 +135,14 @@ img {
   height: 300px;
   width: 550px;
   padding: 25px;
+}
+
+.flexbox {
+  display: inline-flex;
+}
+/* MEDIA QUERIES */
+
+/* Phones */
+@media screen and (max-width: 980px) {
+    
 }

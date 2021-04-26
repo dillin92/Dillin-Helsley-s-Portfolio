@@ -1,6 +1,4 @@
-*{
-    background-color: grey;
-}
+
 .hero {
     background-image: url(/dillyillyin.jpg);
     height: 600px;
@@ -23,7 +21,7 @@ background-color: rgb(128, 128, 128, .5);
 /* Experience */
 .experience {
   background-color: rgb(128, 128, 128, .5);
-  display: inline-flex;
+  display:inline-block;
 }
 
 .experience h2 {
@@ -56,15 +54,49 @@ margin-bottom: 50px;
     background-color: rgb(50, 205, 50, .45);
 }
 
+/* JOBS */
+
 .jobs {
     background-color: grey;
-    display: inline-flex;
+    float: right;
+    height: 981px;
+    width: 763px;
 }
-
 
 .jobs h2 {
   text-align: center;
-  margin-right: 120px;
-  padding:20px;
-  margin:0 0 0 10px;
+  padding: 20px;
 }
+
+.jobs h3 {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.jobs h4 {
+  text-align: center;
+}
+
+.jobs p{
+text-align: center;
+}
+
+.jobs img {
+  height:600px;
+  border-radius: 15%;
+  margin-left: 135px;
+}
+
+footer  {
+  display:inline-flex
+}
+
+.thanks h2 {
+float:right;
+height: 25px;
+}
+
+.sincerely {
+  margin-bottom: 45px;
+}
+

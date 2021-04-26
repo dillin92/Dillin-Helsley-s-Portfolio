@@ -9,5 +9,5 @@
 
 # DEPLOYED URL:
 
- [https://dillin92.github.io/portfolio/](url)
+ [Portfolio](https://dillin92.github.io/portfolio/)
 

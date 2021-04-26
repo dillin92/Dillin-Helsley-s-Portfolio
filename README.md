@@ -8,5 +8,5 @@
 ![Screenshot (12)](https://user-images.githubusercontent.com/80184962/116026124-064ff600-a620-11eb-8774-61609e14ca3e.png)
 
 # DEPLOYED URL:
- [https://dillin92.github.io/portfolio](url)
+ [https://dillin92.github.io/portfolio/index.html](url)
 

@@ -45,7 +45,7 @@ header nav a:hover {
 footer {
   background-color: rgb(104, 103, 103);
   padding: 30px;
-  flex:1 20%;
+  flex: 1 20%;
 }
 
 footer h2 {
@@ -66,7 +66,6 @@ footer h2 {
   margin-bottom: 20px;
 }
 
-
 .sincerely {
   float: right;
 }
@@ -75,7 +74,7 @@ footer h2 {
 
 /* HERO */
 .hero {
-  background-image: url(./shutterstock_671483350.jpg);
+  background-image: url(./images/shutterstock_671483350.jpg);
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -86,7 +85,7 @@ footer h2 {
 /* PORTFOLIO */
 .portfolio {
   background-color: rgb(104, 103, 103, 0.85);
-  flex:1 80%;
+  flex: 1 80%;
   text-align: center;
 }
 
@@ -144,8 +143,7 @@ img {
 
 /* Phones */
 @media screen and (max-width: 980px) {
-    .contact-info {
-      width:100%;
-    }
-
+  .contact-info {
+    width: 100%;
+  }
 }

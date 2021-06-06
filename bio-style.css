@@ -1,66 +1,64 @@
-
 .hero {
-    background-image: url(dillyillyin.jpg);
-    height: 600px;
-    background-size: cover;
-    background-position: inherit;
-    position: relative;
-    padding: 20px;
+  background-image: url(./images/dillyillyin.jpg);
+  height: 600px;
+  background-size: cover;
+  background-position: inherit;
+  position: relative;
+  padding: 20px;
 }
-
 
 /* BIO */
 .bio {
-display: inline-flex;
-background-color: rgb(128, 128, 128, .5);
+  display: inline-flex;
+  background-color: rgb(128, 128, 128, 0.5);
 }
-.bio h2, .bio p{
-    text-align: center;
+.bio h2,
+.bio p {
+  text-align: center;
 }
 
 /* Experience */
 .experience {
-  background-color: rgb(128, 128, 128, .5);
-  display:inline-block;
+  background-color: rgb(128, 128, 128, 0.5);
+  display: inline-block;
 }
 
 .experience h2 {
-    text-align: center;
+  text-align: center;
   margin-right: 120px;
-  padding:20px;
-  margin:0 0 0 10px;
+  padding: 20px;
+  margin: 0 0 0 10px;
 }
 
 .experience h3 {
-text-align: center;
-margin-bottom: 50px;
-
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .experience a img {
-    border-radius: 28%;
-    position: static;
-    box-shadow:0 0 10px 5px white;
+  border-radius: 28%;
+  position: static;
+  box-shadow: 0 0 10px 5px white;
 }
 
 .experience a {
-    display: inline;
+  display: inline;
   position: relative;
   margin: 20px;
   padding: 35px;
 }
 
 .experience a img:hover {
-    background-color: rgb(50, 205, 50, .45);
+  background-color: rgb(50, 205, 50, 0.45);
 }
 
 /* JOBS */
 
 .jobs {
-    background-color: grey;
-    float: right;
-    height: 981px;
-    width: 763px;
+  background-color: grey;
+  float: right;
+  height: 981px;
+  width: 763px;
 }
 
 .jobs h2 {
@@ -77,26 +75,25 @@ margin-bottom: 50px;
   text-align: center;
 }
 
-.jobs p{
-text-align: center;
+.jobs p {
+  text-align: center;
 }
 
 .jobs img {
-  height:600px;
+  height: 600px;
   border-radius: 15%;
   margin-left: 135px;
 }
 
-footer  {
-  display:inline-flex
+footer {
+  display: inline-flex;
 }
 
 .thanks h2 {
-float:right;
-height: 25px;
+  float: right;
+  height: 25px;
 }
 
 .sincerely {
   margin-bottom: 45px;
 }
-
